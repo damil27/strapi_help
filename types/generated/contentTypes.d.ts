@@ -536,6 +536,7 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'title'>;
     subtitle: Schema.Attribute.String;
+    testin_date: Schema.Attribute.DateTime;
     title: Schema.Attribute.String;
     toggle_view: Schema.Attribute.Boolean;
     updatedAt: Schema.Attribute.DateTime;

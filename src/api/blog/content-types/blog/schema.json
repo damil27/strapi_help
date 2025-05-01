@@ -66,6 +66,9 @@
     },
     "main_content": {
       "type": "blocks"
+    },
+    "testin_date": {
+      "type": "datetime"
     }
   }
 }
