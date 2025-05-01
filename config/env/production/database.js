@@ -59,7 +59,7 @@ module.exports = ({ env }) => {
         filename: path.join(
           __dirname,
           "..",
-          env("DATABASE_FILENAME", ".tmp/pro_data.db")
+          env("DATABASE_FILENAME", ".tmp/database.db")
         ),
       },
       useNullAsDefault: true,
