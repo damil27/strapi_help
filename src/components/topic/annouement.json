@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_topic_annouements",
+  "info": {
+    "displayName": "annouement",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "announcement": {
+      "type": "string"
+    }
+  }
+}

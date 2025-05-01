@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "topbar_announcements",
+  "info": {
+    "singularName": "topbar-announcement",
+    "pluralName": "topbar-announcements",
+    "displayName": "topbar-announcement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "topic.annouement"
+    }
+  }
+}

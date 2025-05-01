@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "help_faqs",
+  "info": {
+    "singularName": "help-faq",
+    "pluralName": "help-faqs",
+    "displayName": "HelpFaq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainheader": {
+      "type": "string"
+    },
+    "subHeader": {
+      "type": "string"
+    },
+    "faqlist": {
+      "type": "component",
+      "repeatable": true,
+      "component": "topic.topic"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "details_announcements",
+  "info": {
+    "singularName": "details-announcement",
+    "pluralName": "details-announcements",
+    "displayName": "Details-announcement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "topic.annouement"
+    }
+  }
+}

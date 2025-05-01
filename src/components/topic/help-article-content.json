@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_topic_help_article_contents",
+  "info": {
+    "displayName": "Help-article -content"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Header": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

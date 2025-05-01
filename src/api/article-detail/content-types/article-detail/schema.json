@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_details",
+  "info": {
+    "singularName": "article-detail",
+    "pluralName": "article-details",
+    "displayName": "Help-Center",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "content_faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "topic.topic"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::article-category.article-category",
+      "inversedBy": "article_details"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

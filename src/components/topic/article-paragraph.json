@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_topic_article_paragraphs",
+  "info": {
+    "displayName": "article_paragraph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

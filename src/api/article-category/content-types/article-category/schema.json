@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_categories",
+  "info": {
+    "singularName": "article-category",
+    "pluralName": "article-categories",
+    "displayName": "Help-Center-Topics",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "article_details": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article-detail.article-detail",
+      "mappedBy": "category"
+    }
+  }
+}

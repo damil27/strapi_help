@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_topic_blog_bodies",
+  "info": {
+    "displayName": "blogBody"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  }
+}
